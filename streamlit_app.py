@@ -50,7 +50,7 @@ user_PID = st.text_input("What is your study ID?")
 # Display the selected option
 st.write("""**Start chatting with the AI therapist. After getting >= 10 responses from the therapist,  a 'Save Conversation' button will appear. After you finished the conversation naturally,
          you may click the 'Save Conversation' button to save the conversation and then fill out the evaluation questions.**""")
-st.write(target_styles[style_id], definitions[style_id], survey_items[style_id])
+
 
 # Retrieve api key from secrets
 openai_api_key = st.secrets["OPENAI_API_KEY"]
